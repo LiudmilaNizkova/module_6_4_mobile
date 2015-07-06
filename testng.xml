@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite
+ name="EMail testing" parallel="tests"  thread-count="1">  	
+ 	<test verbose="1" name="MailRuMobile" annotations="JDK"> 	 	
+  <classes>
+   <class
+    name="test.RuMailTest" />   
+  </classes>  
+ </test> 	
+
+
+</suite>
